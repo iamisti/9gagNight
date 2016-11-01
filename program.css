@@ -13,3 +13,7 @@
 .badge-author-name{
     color: #ffffff !important;
 }
+
+#container a, h1, h2, h3{
+    color: #ffffff !important;
+}
