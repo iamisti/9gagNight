@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "9gagNight",
+  "description": "This extension converts your desktop 9gag to 9gag night mode",
+  "version": "1.0",
+
+  "content_scripts":
+  [
+    {
+      "matches": ["http://9gag.com/*"],
+      "css": ["program.css"]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "http://9gag.com/*"
+  ]
+}

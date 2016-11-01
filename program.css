@@ -1,0 +1,15 @@
+#container,
+.badge-entry-toolbar-sticky, .post-afterbar-a, .in-post-top,
+.badge-item-vote-up span, .badge-item-vote-down span
+{
+    background-color: #000000 !important;
+}
+
+.post-comment .CS3{
+    background: #000000;
+    color: #ffffff;
+}
+
+.badge-author-name{
+    color: #ffffff !important;
+}
